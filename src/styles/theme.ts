@@ -20,70 +20,74 @@ export const theme = {
     text: "#333",
   },
   fonts: {
-    roboto: {
-      fontFamily: "'Roboto', sans-serif",
-      textL: {
-        size: "20px",
-        lineHeight: "130%",
-        weight: "700",
-      },
-      textM: {
-        size: "16px",
-        lineHeight: "130%",
-        weight: "700",
-      },
-      textS: {
-        size: "14px",
-        lineHeight: "130%",
-        weight: "400",
-      },
-      textXS: {
-        size: "12px",
-        lineHeight: "130%",
-        weight: "700",
-      },
-      tag: {
-        size: "10px",
-        lineHeight: "130%",
-        weight: "700",
-      },
-      buttonG: {
-        size: "14px",
-        lineHeight: "160%",
-        weight: "700",
-      },
-      buttonM: {
-        size: "12px",
-        lineHeight: "160%",
-        weight: "400",
+    title: {
+      fontFamily: "'Baloo 2',cursive",
+      styles: {
+        titleXL: {
+          size: "48px",
+          lineHeight: "130%",
+          weight: "800",
+        },
+        titleL: {
+          size: "32px",
+          lineHeight: "130%",
+          weight: "800",
+        },
+        titleM: {
+          size: "24px",
+          lineHeight: "130%",
+          weight: "800",
+        },
+        titleS: {
+          size: "20px",
+          lineHeight: "130%",
+          weight: "700",
+        },
+        titleXS: {
+          size: "18px",
+          lineHeight: "130%",
+          weight: "700",
+        },
       },
     },
-    baloo: {
-      fontFamily: "'Baloo 2', cursive",
-      titleXL: {
-        size: "48px",
-        lineHeight: "130%",
-        weight: "800",
-      },
-      titleL: {
-        size: "32px",
-        lineHeight: "130%",
-        weight: "800",
-      },
-      titleM: {
-        size: "24px",
-        lineHeight: "130%",
-        weight: "800",
-      },
-      titleS: {
-        size: "20px",
-        lineHeight: "130%",
-        weight: "700",
-      },
-      titleXS: {
-        size: "18px",
-        lineHeight: "130%",
-        weight: "700",
+    text: {
+      fontFamily: "'Roboto', sans-serif",
+      styles: {
+        textL: {
+          size: "20px",
+          lineHeight: "130%",
+          weight: "700",
+        },
+        textM: {
+          size: "16px",
+          lineHeight: "130%",
+          weight: "700",
+        },
+        textS: {
+          size: "14px",
+          lineHeight: "130%",
+          weight: "400",
+        },
+        textXS: {
+          size: "12px",
+          lineHeight: "130%",
+          weight: "700",
+        },
+        tag: {
+          size: "10px",
+          lineHeight: "130%",
+          weight: "700",
+        },
+        buttonG: {
+          size: "14px",
+          lineHeight: "160%",
+          weight: "700",
+        },
+        buttonM: {
+          size: "12px",
+          lineHeight: "160%",
+          weight: "400",
+        },
       },
     },
   },
