@@ -51,7 +51,7 @@ export const theme = {
       },
     },
     text: {
-      fontFamily: "'Roboto', sans-serif",
+      fontFamily: "'Roboto',sans-serif",
       styles: {
         textL: {
           size: "20px",
@@ -92,3 +92,7 @@ export const theme = {
     },
   },
 } as const;
+
+export type TitleTypes = keyof typeof theme.fonts.title.styles;
+export type TextTypes = keyof typeof theme.fonts.text.styles;
+export type CustomTheme = typeof theme;
