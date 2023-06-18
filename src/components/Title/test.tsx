@@ -3,7 +3,7 @@ import { render } from "@tests/tests-utils";
 import Title from ".";
 
 describe("<Title />", () => {
-  const tag = "p";
+  const tag = "h1";
   const styleName: TitleTypes = "titleL";
   const text = "Hello, World!";
   const { fontFamily, styles } = theme.fonts.title;
