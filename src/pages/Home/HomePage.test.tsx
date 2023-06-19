@@ -1,5 +1,6 @@
-import { render, screen } from "@testing-library/react";
+import { screen } from "@testing-library/react";
 import HomePage from ".";
+import { render } from "@tests/tests-utils";
 
 describe("HomePage", () => {
   it("should render correctly", () => {
